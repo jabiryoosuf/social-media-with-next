@@ -8,44 +8,95 @@ const FriendRequests = () => {
       {/* top  */}
       <div className=" flex items-center justify-between font-medium">
         <span className="text-gray-500">Friend Requests</span>
-        <Link href="/" className="text-blue-500 text-xs"> See all</Link>
+        <Link href="/" className="text-blue-500 text-xs">
+          {" "}
+          See all
+        </Link>
       </div>
       {/* User  */}
       <div className="flex items-center justify-between">
         <div className=" flex items-center gap-4">
-            <Image src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={40} height={40} className="w-10 h-10 rounded-full object-cover"/>
-            <span>shahma</span>
+          <Image
+            src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span>shahma</span>
         </div>
         <div className="flex gap-3 justify-end">
-        <Image src="/accept.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-        <Image src="/reject.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
         </div>
-
       </div>
       <div className="flex items-center justify-between">
         <div className=" flex items-center gap-4">
-            <Image src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={40} height={40} className="w-10 h-10 rounded-full object-cover"/>
-            <span>shahma</span>
+          <Image
+            src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span>shahma</span>
         </div>
         <div className="flex gap-3 justify-end">
-        <Image src="/accept.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-        <Image src="/reject.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
         </div>
-
       </div>
       <div className="flex items-center justify-between">
         <div className=" flex items-center gap-4">
-            <Image src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={40} height={40} className="w-10 h-10 rounded-full object-cover"/>
-            <span>shahma</span>
+          <Image
+            src="https://images.pexels.com/photos/27430539/pexels-photo-27430539/free-photo-of-blue-eyes-with-horse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            width={40}
+            height={40}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <span>shahma</span>
         </div>
         <div className="flex gap-3 justify-end">
-        <Image src="/accept.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-        <Image src="/reject.png" alt="" width={20} height={20} className="w-5 h-5 rounded-full "/>
-
+          <Image
+            src="/accept.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
+          <Image
+            src="/reject.png"
+            alt=""
+            width={20}
+            height={20}
+            className="w-5 h-5 rounded-full "
+          />
         </div>
-
       </div>
     </div>
   );
